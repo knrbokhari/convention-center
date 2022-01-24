@@ -37,6 +37,12 @@ p{
 .cards{
     max-width: 280px;
 }
+.card-shadow{
+    box-shadow: 1px 20px 20px rgb(13 202 240 / 50%);
+}
+.start-80{
+    left: 80%;
+}
 /* // Small devices (landscape phones) */
 @media (min-width: 576px) { 
     .header-titel{

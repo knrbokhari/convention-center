@@ -104,7 +104,7 @@
         <!-- package -->
         <section class="package">
             <h2 class="my-5 text-center">Our package</h2>
-            <div class="row justify-content-evenly">
+            <div class="row justify-content-evenly align-items-end">
                 <!-- card 1 -->
                 <div class="col-12 col-md-6 col-lg-3 p-4 cards">
                     <h3>$300</h3>
@@ -194,8 +194,10 @@
                         plan</button>
                 </div>
                 <!-- card 3 -->
-                <div class="col-12 col-md-6 col-lg-3 p-4 bg-info mt-3 mt-md-4 mt-lg-0 cards"
-                    style="border-radius: 30px;">
+                <div class="col-12 col-md-6 col-lg-3 p-4 pb-5 bg-info mt-3 mt-md-4 mt-lg-0 cards card-shadow position-relative"
+                    style="border-radius: 20px;">
+                    <span
+                        class="position-absolute top-0 start-80 translate-middle badge rounded-pill bg-danger py-2 px-3">Hot</span>
                     <h3 class="text-white">$800</h3>
                     <h4 class="card-title my-3 text-white">Wedding plus</h4>
                     <div class="">
@@ -235,7 +237,7 @@
                             </svg> Per day bill
                         </p>
                     </div>
-                    <button type="button" class="btn btn-light w-100 mt-1" style="color: #3F87F5;">Choose
+                    <button type="button" class="btn btn-light w-100 mt-3" style="color: #3F87F5;">Choose
                         plan</button>
                 </div>
                 <!-- card 4 -->
@@ -287,7 +289,7 @@
         <!-- Question -->
         <section>
             <h2 class="my-5 text-center">Frequently Asked Questions</h2>
-            <div class="row flex-row-reverse">
+            <div class="row flex-row-reverse align-items-center">
                 <div class="col-12 col-md-6">
                     <img src="images/people.png" alt="" class="img-fluid">
                 </div>
@@ -356,17 +358,19 @@
     </main>
     <!-- main end -->
     <!-- footer start -->
-    <footer>
+    <footer class="bg-dark mt-5">
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <h4 class="text-white">
-                        Get the App
-                    </h4>
-                    <img src="" alt="">
-                    <img src="" alt="">
+            <div class="row flex-row-reverse align-items-center">
+                <div class="col-12 col-md-6 py-5 d-flex flex-column align-items-center">
+                    <h5 class="text-white">Get the App</h5>
+                    <a href="">
+                        <img src="images/google-play.png" alt="" width="135px">
+                    </a>
+                    <a href="">
+                        <img src="images/app-store.png" alt="" width="135px" class="mt-2">
+                    </a>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 mb-3 m-md-0 text-center text-md-start col-md-6">
                     <p>© 2020 bike. All rights reserved</p>
                 </div>
             </div>
