@@ -24,6 +24,18 @@
 <body>
     <!-- header start -->
     <header>
+        <!-- alert -->
+        <div class="alert alert-light alert-dismissible alert-border m-0 fade show alert-width shadow-sm" role="alert">
+            <span class="d-flex align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" class="gift mb-1" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                        d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" />
+                </svg>
+                <p class="m-0">20% off on next booking</p>
+            </span>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
         <!-- nav start -->
         <nav class="navbar navbar-expand-lg navbar-light container my-md-2">
             <div class="container-fluid">
@@ -67,20 +79,31 @@
                 <div class="carousel-item active slider" style="background-image: url(images/banner-1.png);">
                     <div class=" carousel-caption">
                         <h1 class="header-titel">The perfect venue for your <br> next event</h1>
-                        <p class="header-text">Some representative placeholder content for the first slide.</p>
-                        <button type="button" class="btn btn-light px-3 my-3" style="color: #3F87F5;">Book Now</button>
+                        <p class="header-text">we will help you find accommodation for events, and we also offer
+                            services of event planning for you.</p>
+                        <a href="https://getbootstrap.com/docs/5.1/getting-started/introduction/" target="_blank">
+                            <button type="button" class="btn btn-light px-3 my-3" style="color: #3F87F5;">Book
+                                Now</button>
+                        </a>
                     </div>
                 </div>
                 <div class="carousel-item slider" style="background-image: url(images/banner-2.png);">
                     <div class=" carousel-caption">
-                        <h1 class="header-titel">Second slide label</h1>
-                        <p class="header-text">Some representative placeholder content for the second slide.</p>
+                        <h1 class="header-titel">Let's Get Planning </h1>
+                        <p class="header-text">We'd love to hear your event. Fill out our Event Enquiries form and let's
+                            bring your vision to reality.</p>
+                        <a href="#contact">
+                            <button type="button" class="btn btn-light px-3 my-3" style="color: #3F87F5;">Book
+                                Now</button>
+                        </a>
                     </div>
                 </div>
                 <div class="carousel-item slider" style="background-image: url(images/banner-3.png);">
                     <div class=" carousel-caption">
-                        <h1 class="header-titel">Third slide label</h1>
-                        <p class="header-text">Some representative placeholder content for the third slide.</p>
+                        <h1 class="header-titel">A Grand Space</h1>
+                        <p class="header-text">We find ourselves in the midst of something that only appeals to our
+                            senses. That's why, this time, we have created spaces that aim to enliven your occasions.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -95,7 +118,7 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-        <!-- image slider start -->
+        <!-- image slider end -->
     </header>
     <!-- header end -->
 
@@ -110,6 +133,7 @@
                     <h3>$300</h3>
                     <h4 class="card-title my-3">Business fair</h4>
                     <div class="">
+                        <p class="mb-2">For most businesses event like book fair, craft fair.</p>
                         <p class="d-flex m-1 align-items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" class="check-circle" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
@@ -146,34 +170,36 @@
                             </svg> Per day bill
                         </p>
                     </div>
-                    <button type="button" class="btn btn-light px-3 mt-1" style="color: #3F87F5;">Choose
+                    <button type="button" class="btn btn-light px-3 mt-1 w-100 fw-bold"
+                        style="color: #3F87F5; background: rgba(244, 150, 210, 0.11);">Choose
                         plan</button>
                 </div>
                 <!-- card-2 -->
                 <div class="col-12 col-md-6 col-lg-3 p-4 mt-3 mt-md-0 cards">
-                    <h3>$300</h3>
-                    <h4 class="card-title my-3">Business fair</h4>
+                    <h3>$500</h3>
+                    <h4 class="card-title my-3">Wedding basic</h4>
                     <div class="">
+                        <p class="mb-2">For weddings with basic plan and limited item</p>
                         <p class="d-flex m-1 align-items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" class="check-circle" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg> limited space access
+                            </svg> Full space access
                         </p>
                         <p class="d-flex m-1 align-items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" class="check-circle" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg> Secuirty facility
+                            </svg> Food arrangement
                         </p>
                         <p class="d-flex m-1 align-items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" class="check-circle" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg> event support
+                            </svg> mangement support
                         </p>
                         <p class="d-flex m-1 align-items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" class="check-circle" fill="none" viewBox="0 0 24 24"
@@ -187,10 +213,11 @@
                                 stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg> Per day bill
+                            </svg> Billed as shift
                         </p>
                     </div>
-                    <button type="button" class="btn btn-light px-3 mt-1" style="color: #3F87F5;">Choose
+                    <button type="button" class="btn btn-light px-3 mt-1 w-100 fw-bold"
+                        style="color: #3F87F5; background: rgba(244, 150, 210, 0.11);">Choose
                         plan</button>
                 </div>
                 <!-- card 3 -->
@@ -201,87 +228,90 @@
                     <h3 class="text-white">$800</h3>
                     <h4 class="card-title my-3 text-white">Wedding plus</h4>
                     <div class="">
+                        <p class="mb-2 text-white">For most weddings with premium plans</p>
                         <p class="d-flex m-1 text-white align-items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="check-circle" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="check-circle" style="color: white;"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg> limited space access
+                            </svg> Full space access
                         </p>
                         <p class="d-flex m-1 text-white align-items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="check-circle" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="check-circle" style="color: white;"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg> Secuirty facility
+                            </svg> Dedicated team
                         </p>
                         <p class="d-flex m-1 text-white align-items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="check-circle" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="check-circle" style="color: white;"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg> event support
+                            </svg> Buffet food
                         </p>
                         <p class="d-flex m-1 text-white align-items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="check-circle" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="check-circle" style="color: white;"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg> Decoration design
+                            </svg> premium Decoration
                         </p>
                         <p class="d-flex m-1 text-white align-items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="check-circle" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="check-circle" style="color: white;"
+                                fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg> Per day bill
+                            </svg> Per as plan
                         </p>
                     </div>
-                    <button type="button" class="btn btn-light w-100 mt-3" style="color: #3F87F5;">Choose
+                    <button type="button" class="btn btn-light w-100 mt-3 fw-bold" style="color: #3F87F5;">Choose
                         plan</button>
                 </div>
                 <!-- card 4 -->
                 <div class="col-12 col-md-6 col-lg-3 p-4 mt-3 mt-md-4 mt-lg-0 cards">
-                    <h3>$300</h3>
-                    <h4 class="card-title my-3">Business fair</h4>
+                    <h3>$1200</h3>
+                    <h4 class="card-title my-3">Corporate event</h4>
                     <div class="">
+                        <p class="mb-2">For most corporate business events</p>
                         <p class="d-flex m-1 align-items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" class="check-circle" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg> limited space access
+                            </svg> Full space access
                         </p>
                         <p class="d-flex m-1 align-items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" class="check-circle" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg> Secuirty facility
+                            </svg> Dedicated team
                         </p>
                         <p class="d-flex m-1 align-items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" class="check-circle" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg> event support
+                            </svg> Buffet food
                         </p>
                         <p class="d-flex m-1 align-items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" class="check-circle" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg> Decoration design
+                            </svg> premium Decoration
                         </p>
                         <p class="d-flex m-1 align-items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" class="check-circle" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg> Per day bill
+                            </svg> pay as plan
                         </p>
                     </div>
-                    <button type="button" class="btn btn-light px-3 mt-1" style="color: #3F87F5;">Choose
+                    <button type="button" class="btn btn-light px-3 mt-1 w-100 fw-bold"
+                        style="color: #3F87F5; background: rgba(244, 150, 210, 0.11);">Choose
                         plan</button>
                 </div>
             </div>
@@ -290,10 +320,10 @@
         <section>
             <h2 class="my-5 text-center">Frequently Asked Questions</h2>
             <div class="row flex-row-reverse align-items-center">
-                <div class="col-12 col-md-6">
-                    <img src="images/people.png" alt="" class="img-fluid">
+                <div class="col-12 col-lg-6 mx-auto">
+                    <img src="images/people.png" alt="" class="w-100">
                 </div>
-                <div class="col-12 col-md-6 mt-5 mt-md-0">
+                <div class="col-12 col-lg-6 mt-5 mt-lg-0">
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
@@ -305,7 +335,9 @@
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-
+                                    Event design encompasses the more creative side of event management. While a planner
+                                    focuses on organization, we focus on the decor of the event. It is our job to ensure
+                                    your event is truly stunning.
                                 </div>
                             </div>
                         </div>
@@ -313,13 +345,15 @@
                             <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    How early do we need to start planning an event
+                                    How early do we need to start planning an event?
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-
+                                    It's never too soon to start! The time to plan events varies from a few weeks to
+                                    years.A good rule of thumb for any major event, from weddings to a company holiday
+                                    party, is six months.
                                 </div>
                             </div>
                         </div>
@@ -333,25 +367,90 @@
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-
+                                    Cancellation and refund policies differ according to the payment term. If you
+                                    purchased your subscription through a third party, please refer to any <a href=""
+                                        class="text-decoration-none">terms and conditions</a> terms and
+                                    conditions provided to you in connection with purchase.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFore">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFore" aria-expanded="false" aria-controls="collapseFore">
+                                    How do you keep budgets on track?
+                                </button>
+                            </h2>
+                            <div id="collapseFore" class="accordion-collapse collapse" aria-labelledby="headingFore"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Keeping track of our expenses on a regular basis is an important part of managing
+                                    your overall finances. Not only does it help us see where your money goes, but it
+                                    can also reveal to us your spending patterns.
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                How do you keep budgets on track?
-                            </button>
-                        </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                            data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-
-                            </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact -->
+        <section class="container my-5" id="contact">
+            <h2 class="text-center mt-4">Contact</h2>
+            <div class="row align-items-md-center">
+                <div class="col-12 col-sm-4 text-center text-md-start">
+                    <P>Phone : <br> <a href="" class="text-decoration-none">
+                            +8801752525252
+                        </a>
+                    </P>
+                    <p>Email : <br><a href="" class="text-decoration-none"> naeem02@gmail.com </a> </p>
+                    <p>Address : <br> <a href="" class="text-decoration-none"> 161 Motijheel C/a, Rahman Mansion (3rd
+                            Floor), Dhaka, Bangladesh.</a> </p>
+                </div>
+                <div class="col-12 col-sm-8 mt-4">
+                    <form action="" class="row">
+                        <p>Just fill in the form, sit back and relax, we will take it from here. </p>
+                        <div class="col-md-6 col-12 ">
+                            <label class="name">Full Name *</label><br />
+                            <input type="text" name="" value="" class="w-100" required>
                         </div>
-                    </div>
+                        <div class="col-md-6 col-12 ">
+                            <label class="name">Email*</label><br />
+                            <input type="email" name="" value="" class="w-100" required>
+                        </div>
+                        <div class="col-md-6 col-12 ">
+                            <label class="name">Phone *</label><br />
+                            <input type="number" name="" value="" class="w-100" required>
+                        </div>
+                        <div class="col-md-6 col-12 ">
+                            <label class="name">Company </label><br />
+                            <input type="text" name="" value="" class="w-100">
+                        </div>
+                        <div class="col-md-6 col-12 ">
+                            <label class="name">Event Type *</label><br />
+                            <select name="" id="" class="w-100">
+                                <option value="">-- select event --</option>
+                                <option value="">Conference</option>
+                                <option value="">Perty</option>
+                                <option value="">Launch</option>
+                                <option value="">Other event</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 col-12 ">
+                            <label class="name">No. People *</label><br />
+                            <input type="number" name="" value="" class="w-100" required>
+                        </div>
+                        <div class="col-12 ">
+                            <label class="name">Message</label><br />
+                            <textarea name="" id="" cols="15" rows="4" class="w-100"></textarea>
+                        </div>
+                        <div class="col-12 d-flex flex-wrap mt-3">
+                            <p><input type="checkbox" name="" id="" class="me-2">I have read and agree to the <a
+                                    href="">terms and
+                                    conditions</a> and <a href=""> Privacy Policy.</a></p>
+                        </div>
+                        <button type="button" class="btn btn-outline-info w-25 mx-auto mt-4">Send</button>
+                    </form>
                 </div>
             </div>
         </section>
@@ -363,10 +462,10 @@
             <div class="row flex-row-reverse align-items-center">
                 <div class="col-12 col-md-6 py-5 d-flex flex-column align-items-center">
                     <h5 class="text-white">Get the App</h5>
-                    <a href="">
+                    <a href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp&hl=en&gl=US">
                         <img src="images/google-play.png" alt="" width="135px">
                     </a>
-                    <a href="">
+                    <a href="https://apps.apple.com/us/app/facebook/id284882215">
                         <img src="images/app-store.png" alt="" width="135px" class="mt-2">
                     </a>
                 </div>
